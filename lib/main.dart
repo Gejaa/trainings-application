@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:mytrainingsapp/screens/home_trainings_screen.dart';
 
 Future<void> main() async {
+
+
   WidgetsFlutterBinding.ensureInitialized();
   FirebaseApp firebaseApp=await Firebase.initializeApp();
   runApp( MaterialApp(
